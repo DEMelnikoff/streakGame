@@ -408,7 +408,7 @@ console.log(settings.pM);
     function MakeLatencyArrays() {
         var arrayR1 = [];
         var arrayR2 = [];
-        var fast = Array(10-settings.pM).fill(200);
+        var fast = Array(10-settings.pM).fill(215);
         var slow = Array(settings.pM).fill(750);
         for (let i = 0; i < ((settings.nTrials/10)-1); i++) {
             arrayR1.push(jsPsych.randomization.shuffle(fast.concat(slow)))
