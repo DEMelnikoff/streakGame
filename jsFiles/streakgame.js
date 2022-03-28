@@ -1,7 +1,7 @@
 // Define Stimuli
 
 
-var streakGame2 = (function() {
+var streakGame = (function() {
 
     var p = {};
 

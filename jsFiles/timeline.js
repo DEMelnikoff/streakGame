@@ -21,7 +21,7 @@ function MakeTimeline(game) {
     ]
 };
 
-var exp = new MakeTimeline(streakGame2);
+var exp = new MakeTimeline(streakGame);
 
 //jsPsych.init({
 //    timeline: exp.timeline,
