@@ -14,7 +14,7 @@ var streakGame = (function() {
         val: 1,
         nTrials: 50
     };
-console.log(settings.pM);
+
     // create text variables for instructions
     
     var text = {
@@ -53,9 +53,10 @@ console.log(settings.pM);
 
     // save condition and URL data
     jsPsych.data.addProperties({
-        pM_Streak: settings.pM,
-        pEM_Streak: settings.pEM,
-        colorOrder_Streak: settings.colorOrder,
+        pM: settings.pM,
+        pEM: settings.pEM,
+        colorOrder: settings.colorOrder,
+        streakOrder: settings.streakOrder,
     });
 
    /*
